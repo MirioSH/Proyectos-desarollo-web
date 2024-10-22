@@ -4,8 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu desplegable</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    
+    <nav class="menu">
+        <section class="menu__container">
+                <h1 class="menu__logo">Gustavo Soto</h1>
+
+                <ul class="menu__links">
+                    <li class="menu__items">
+                        <a href="#" class="menu__link">Home</a>
+                    </li>
+        
+                    <li class="menu__items menu__item--show">
+                        <a href="#" class="menu__link">About <img src="assets/arrow.svg" class="menu__arrow"></a>
+        
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">About 1</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">About 2</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">About 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="menu__items">
+                        <a href="#" class="menu__link">Projects <img src="assets/arrow.svg" class="menu__arrow"></a>
+        
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Project 1</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Project 2</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="#" class="menu__link menu__link--inside">Project 3</a>
+                            </li>
+                        </ul>
+                    </li>
+        
+                    <li class="menu__items">
+                        <a href="#" class="menu__link">Contact</a>
+                    </li>
+                    
+                </ul>
+        </section>
+
+        
+    </nav>
+    <script src="js/ap.js"></script>
 </body>
 </html>
